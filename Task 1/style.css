@@ -84,3 +84,55 @@
     margin-top: -15px;
     font-style: italic;
 }
+
+@media screen and (max-width: 650px) and (min-width: 450px){
+    
+
+    .img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .intro{
+        padding: 5px 20px;
+        margin: 20px 20px 1px 20px;
+    }
+
+    .name-btm{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .position{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .parent{
+       
+        flex-direction: column;
+       
+    }
+
+    /* .img{
+        width: 100px;
+        height: 100px;
+    } */
+    
+    .intro{
+        padding: 5px 20px;
+        margin: 20px 20px 1px 20px;
+    }
+
+    .name-btm{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .position{
+        font-size: 14px;
+    }
+    
+}
+
